@@ -12,7 +12,7 @@ export default class Cell extends React.Component{
         return (<div className='cell' style={{backgroundColor: this.state.color}} onClick={this.click}></div>)
     }
 
-    click = ()=>{
+    click = () => {
         this.setState({
             color:'#333'
         })
