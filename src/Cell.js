@@ -1,4 +1,4 @@
-import React from 'react'
+import React {Component}, from 'react'
 
 export default class Cell extends React.Component{
     constructor(props){
@@ -13,7 +13,7 @@ export default class Cell extends React.Component{
             color:'#333'
         })
     }
-    
+
     render(){
         return (<div className='cell' style={{backgroundColor: this.state.color}} onClick={this.click}></div>)
     }
